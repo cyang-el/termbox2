@@ -41,6 +41,7 @@ Termbox::tb_printf(0, y += 1, 0x04, 0x00,
     :int, ev[:h],
     :int, ev[:x],
     :int, ev[:y])
+
 Termbox::tb_present
 
 Termbox::tb_printf(0, y += 1, 0x05, 0x00, "press any key to quit")
